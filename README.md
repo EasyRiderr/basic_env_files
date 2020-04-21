@@ -23,3 +23,6 @@ GIT_PS1_SHOWUPSTREAM=git
 - Define git global user name and mail
 `git config --global user.email "yo_dumas@hotmail.fr"`
 `git config --global user.name "Yoan Dumas"`
+
+## Several git account on same computer
+In case you need to setup several git account on the same PC, this [link](https://medium.com/@xiaolishen/use-multiple-ssh-keys-for-different-github-accounts-on-the-same-computer-7d7103ca8693) is cool !
