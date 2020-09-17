@@ -22,7 +22,6 @@ alias gca='git commit -s --amend'
 
 
 alias ctags="ctags -R --c-kinds=+p --fields=+iaS --extra=+q --links=no"
-alias t="sed -i 's/[ \t]*$//'"
 
 
 # Repo aliases
@@ -46,3 +45,8 @@ alias ffa='find `pwd` -type f | grep -v tags | xargs grep -I --color -n '
 alias ffai='find `pwd` -type f | grep -v tags | xargs grep -I --color -ni '
 alias fh='find `pwd` | grep -v tags | grep "\.h$"    | xargs grep --color -ni '
 alias fc='find `pwd` | grep -v tags | grep "\.c$"    | xargs grep --color -ni '
+
+# Compilation
+alias c='make clean'
+alias m='time make -j8'
+alias cm='make clean && time make -j8'
