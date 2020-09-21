@@ -60,4 +60,5 @@ sudo -u "$SUDO_USER" git config --global user.email "$REPLY"
 # Perform the snap install
 snap install spotify
 snap install typora
+snap install kolourpaint
 snap install slack --classic
