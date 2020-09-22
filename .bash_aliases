@@ -50,3 +50,7 @@ alias fc='find `pwd` | grep -v tags | grep "\.c$"    | xargs grep --color -ni '
 alias c='make clean'
 alias m='time make -j8'
 alias cm='make clean && time make -j8'
+
+# To update regarding project
+__elf_file__=path
+alias addr='arm-none-eabi-addr2line -e $__elf_file__ -pifa'

@@ -14,7 +14,7 @@ fi
 
 # Install the basics
 apt-get -qq -y update
-apt-get -qq -y install wget vim git ctags terminator dos2unix make
+apt-get -qq -y install wget vim git ctags terminator dos2unix make tree
 apt_res=$?
 if ! [ $apt_res = 0 ]
 then
