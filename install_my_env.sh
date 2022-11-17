@@ -13,8 +13,8 @@ then
 fi
 
 # Install the basics
-apt-get -qq -y update
-apt-get -qq -y install wget vim git ctags terminator dos2unix make tree
+apt -qq -y update
+apt -qq -y install wget vim git terminator dos2unix make tree
 apt_res=$?
 if ! [ $apt_res = 0 ]
 then
@@ -61,4 +61,8 @@ sudo -u "$SUDO_USER" git config --global user.email "$REPLY"
 snap install spotify
 snap install typora
 snap install kolourpaint
-snap install slack --classic
+snap install slack
+snap install discord
+snap install signal-desktop
+
+apt -qq -y autoremove
