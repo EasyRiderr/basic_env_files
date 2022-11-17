@@ -27,5 +27,5 @@ Now each time you need to clone a personnal repo, you can use the git clone comm
 ## Installing basic environment files
 
 ```bash
-sudo apt-get install wget && wget -q https://raw.githubusercontent.com/EasyRiderr/basic_env_files/master/install_my_env.sh && chmod a+x install_my_env.sh && sudo ./install_my_env.sh && rm install_my_env.sh
+sudo apt -qq -y install wget && wget -q https://raw.githubusercontent.com/EasyRiderr/basic_env_files/master/install_my_env.sh && chmod a+x install_my_env.sh && sudo ./install_my_env.sh && rm install_my_env.sh
 ```
