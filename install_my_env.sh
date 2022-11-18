@@ -14,7 +14,7 @@ fi
 
 # Install the basics
 apt -qq -y update
-apt -qq -y install wget vim git terminator dos2unix make tree
+apt -qq -y install wget vim git terminator dos2unix make tree bless
 apt_res=$?
 if ! [ $apt_res = 0 ]
 then
